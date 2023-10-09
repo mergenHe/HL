@@ -1,0 +1,162 @@
+2023-09-19 17:59:45,752 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-19 17:59:45,752 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2023-09-19 17:59:45,771 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-19 17:59:45,771 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-19 17:59:45,904 DEBUG [http-nio-63040-exec-1][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e3f13f
+2023-09-19 17:59:45,904 DEBUG [http-nio-63040-exec-1][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e3f13f
+2023-09-19 17:59:45,908 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-09-19 17:59:45,908 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-09-19 17:59:45,910 DEBUG [http-nio-63040-exec-1][DataSourceTransactionManager.java:263] - Acquired Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f] for JDBC transaction
+2023-09-19 17:59:45,910 DEBUG [http-nio-63040-exec-1][DataSourceTransactionManager.java:263] - Acquired Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f] for JDBC transaction
+2023-09-19 17:59:45,912 DEBUG [http-nio-63040-exec-1][DataSourceTransactionManager.java:281] - Switching JDBC Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f] to manual commit
+2023-09-19 17:59:45,912 DEBUG [http-nio-63040-exec-1][DataSourceTransactionManager.java:281] - Switching JDBC Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f] to manual commit
+2023-09-19 17:59:45,955 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Creating a new SqlSession
+2023-09-19 17:59:45,955 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Creating a new SqlSession
+2023-09-19 17:59:45,965 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:45,965 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:45,988 DEBUG [http-nio-63040-exec-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f] will be managed by Spring
+2023-09-19 17:59:45,988 DEBUG [http-nio-63040-exec-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f] will be managed by Spring
+2023-09-19 17:59:45,993 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_base ( company_id, name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date, audit_status, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2023-09-19 17:59:45,993 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_base ( company_id, name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date, audit_status, status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ? )
+2023-09-19 17:59:46,008 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-09-19 17:59:46,008 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-09-19 17:59:46,016 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), 测试课程103(String), 初级人员(String), (String), 1-1(String), 1-1-1(String), 204001(String), 200002(String), Java高级网络(String), ffdsf(String), 2023-09-19T17:59:45.949(LocalDateTime), null, 202002(String), 203001(String)
+2023-09-19 17:59:46,016 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1232141425(Long), 测试课程103(String), 初级人员(String), (String), 1-1(String), 1-1-1(String), 204001(String), 200002(String), Java高级网络(String), ffdsf(String), 2023-09-19T17:59:45.949(LocalDateTime), null, 202002(String), 203001(String)
+2023-09-19 17:59:46,018 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11252b6
+2023-09-19 17:59:46,018 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11252b6
+2023-09-19 17:59:46,026 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1769a25
+2023-09-19 17:59:46,026 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1769a25
+2023-09-19 17:59:46,028 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-09-19 17:59:46,028 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-09-19 17:59:46,034 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dd6d94
+2023-09-19 17:59:46,034 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dd6d94
+2023-09-19 17:59:46,047 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@719631
+2023-09-19 17:59:46,047 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@719631
+2023-09-19 17:59:46,054 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4357ba
+2023-09-19 17:59:46,054 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4357ba
+2023-09-19 17:59:46,057 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,057 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,060 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,060 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,062 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16d1996
+2023-09-19 17:59:46,062 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16d1996
+2023-09-19 17:59:46,063 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-09-19 17:59:46,063 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-09-19 17:59:46,065 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2023-09-19 17:59:46,065 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2023-09-19 17:59:46,072 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34d2f5
+2023-09-19 17:59:46,072 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34d2f5
+2023-09-19 17:59:46,081 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bca0a2
+2023-09-19 17:59:46,081 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bca0a2
+2023-09-19 17:59:46,089 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3db242
+2023-09-19 17:59:46,089 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3db242
+2023-09-19 17:59:46,089 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2023-09-19 17:59:46,089 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+2023-09-19 17:59:46,095 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-09-19 17:59:46,095 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 0
+2023-09-19 17:59:46,099 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,099 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,100 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,100 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,101 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_market ( id, charge, price, original_price, qq, wechat, phone, valid_days ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2023-09-19 17:59:46,101 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: INSERT INTO course_market ( id, charge, price, original_price, qq, wechat, phone, valid_days ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? )
+2023-09-19 17:59:46,102 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long), 201001(String), 10.0(Float), 100.0(Float), 22333(String), 223344(String), 13333333(String), 365(Integer)
+2023-09-19 17:59:46,102 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long), 201001(String), 10.0(Float), 100.0(Float), 22333(String), 223344(String), 13333333(String), 365(Integer)
+2023-09-19 17:59:46,105 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-09-19 17:59:46,105 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2023-09-19 17:59:46,106 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,106 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,106 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,106 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,106 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-09-19 17:59:46,106 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2023-09-19 17:59:46,107 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2023-09-19 17:59:46,107 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2023-09-19 17:59:46,114 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-19 17:59:46,114 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-19 17:59:46,115 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,115 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,115 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,115 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-09-19 17:59:46,115 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2023-09-19 17:59:46,116 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2023-09-19 17:59:46,116 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 122(Long)
+2023-09-19 17:59:46,118 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-19 17:59:46,118 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-19 17:59:46,118 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,118 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,122 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,122 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,122 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-09-19 17:59:46,122 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-09-19 17:59:46,123 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-1-1(String)
+2023-09-19 17:59:46,123 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-1-1(String)
+2023-09-19 17:59:46,126 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-19 17:59:46,126 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-19 17:59:46,126 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,126 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,127 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,127 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f] from current transaction
+2023-09-19 17:59:46,127 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-09-19 17:59:46,127 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2023-09-19 17:59:46,128 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-1(String)
+2023-09-19 17:59:46,128 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 1-1(String)
+2023-09-19 17:59:46,129 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-19 17:59:46,129 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-09-19 17:59:46,130 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,130 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,130 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,130 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,131 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,131 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,131 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,131 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10fe15f]
+2023-09-19 17:59:46,131 DEBUG [http-nio-63040-exec-1][AbstractPlatformTransactionManager.java:740] - Initiating transaction commit
+2023-09-19 17:59:46,131 DEBUG [http-nio-63040-exec-1][AbstractPlatformTransactionManager.java:740] - Initiating transaction commit
+2023-09-19 17:59:46,131 DEBUG [http-nio-63040-exec-1][DataSourceTransactionManager.java:326] - Committing JDBC transaction on Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f]
+2023-09-19 17:59:46,131 DEBUG [http-nio-63040-exec-1][DataSourceTransactionManager.java:326] - Committing JDBC transaction on Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f]
+2023-09-19 17:59:46,135 DEBUG [http-nio-63040-exec-1][DataSourceTransactionManager.java:385] - Releasing JDBC Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f] after transaction
+2023-09-19 17:59:46,135 DEBUG [http-nio-63040-exec-1][DataSourceTransactionManager.java:385] - Releasing JDBC Connection [HikariProxyConnection@22864598 wrapping com.mysql.cj.jdbc.ConnectionImpl@e3f13f] after transaction
+2023-09-19 17:59:46,162 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-19 17:59:46,162 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2023-09-19 17:59:46,162 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [CourseBaseInfoDto(charge=201001, price=10.0, originalPrice=100.0, qq=22333, wechat=223344, phone=133 (truncated)...]
+2023-09-19 17:59:46,162 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - Writing [CourseBaseInfoDto(charge=201001, price=10.0, originalPrice=100.0, qq=22333, wechat=223344, phone=133 (truncated)...]
+2023-09-19 17:59:46,192 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1101] - Failed to complete request: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2023-09-19 17:59:46,192 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1101] - Failed to complete request: org.apache.catalina.connector.ClientAbortException: java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+2023-09-19 17:59:46,253 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2023-09-19 17:59:46,253 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2023-09-19 17:59:46,255 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2023-09-19 17:59:46,255 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2023-09-19 17:59:46,255 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2023-09-19 17:59:46,255 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2023-09-19 17:59:46,255 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-19 17:59:46,255 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-19 17:59:46,257 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-09-19 17:59:46,257 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-09-19 17:59:46,257 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-09-19 17:59:46,257 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-09-19 17:59:46,258 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e3f13f: (connection evicted)
+2023-09-19 17:59:46,258 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e3f13f: (connection evicted)
+2023-09-19 17:59:46,262 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11252b6: (connection evicted)
+2023-09-19 17:59:46,262 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@11252b6: (connection evicted)
+2023-09-19 17:59:46,262 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1769a25: (connection evicted)
+2023-09-19 17:59:46,262 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1769a25: (connection evicted)
+2023-09-19 17:59:46,263 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1dd6d94: (connection evicted)
+2023-09-19 17:59:46,263 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1dd6d94: (connection evicted)
+2023-09-19 17:59:46,263 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@719631: (connection evicted)
+2023-09-19 17:59:46,263 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@719631: (connection evicted)
+2023-09-19 17:59:46,263 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4357ba: (connection evicted)
+2023-09-19 17:59:46,263 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4357ba: (connection evicted)
+2023-09-19 17:59:46,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16d1996: (connection evicted)
+2023-09-19 17:59:46,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16d1996: (connection evicted)
+2023-09-19 17:59:46,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34d2f5: (connection evicted)
+2023-09-19 17:59:46,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@34d2f5: (connection evicted)
+2023-09-19 17:59:46,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@bca0a2: (connection evicted)
+2023-09-19 17:59:46,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@bca0a2: (connection evicted)
+2023-09-19 17:59:46,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3db242: (connection evicted)
+2023-09-19 17:59:46,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3db242: (connection evicted)
+2023-09-19 17:59:46,265 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-09-19 17:59:46,265 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-09-19 17:59:46,265 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-09-19 17:59:46,265 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

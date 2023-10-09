@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: contentService
+  cloud:
+    nacos:
+      server-addr: 192.168.101.65:8848
+      discovery:
+        namespace: dev402
+        group: hh-project
+      config:
+        namespace: dev402
+        group: hh-project
+        file-extension: yaml
+        refresh-enabled: true
+# #profiles???dev
+  profiles:
+    active: dev
